@@ -1,0 +1,146 @@
+﻿
+
+.maincontent > div 
+{
+    padding: 120px 0 0;
+    left: 50%;
+    margin: 0 0 0 -580px;
+    position: absolute;
+    top: 0;
+    width: 960px;
+}
+
+div.col-left
+{
+    position: absolute;
+    width: 240px;
+    left: 10px;
+}
+
+div.col-center
+{
+    position: absolute;
+    width: 422px;
+    left: 270px;
+}
+
+div.col-right
+{
+    position: absolute;
+    width: 240px;
+    left: 715px;
+}
+
+.mail-link 
+{
+    display: block;
+    height: 0;
+    margin: 0 !important;
+    overflow: hidden;
+    padding-top: 24px;
+    width: 24px;
+    background: url("https://persoonlijk.knab.nl/fout/404") no-repeat scroll 0 0 transparent;
+}
+
+.twitter-link 
+{
+    display: block;
+    height: 0;
+    margin: 0 !important;
+    overflow: hidden;
+    padding-top: 24px;
+    width: 24px;    
+    background: url("https://persoonlijk.knab.nl/fout/404") no-repeat scroll 0 0 transparent;
+}
+
+.linkedin-link
+{
+    display: block;
+    height: 0;
+    margin: 0 !important;
+    overflow: hidden;
+    padding-top: 24px;
+    width: 24px;    
+    background: url("https://persoonlijk.knab.nl/fout/404") no-repeat scroll 0 0 transparent;
+}
+
+/* Caroussel Start */
+
+/*--Main Container--*/
+.caroussel
+{
+    float: left;
+	position: relative;
+}
+
+.caroussel_slide_container
+{
+    background-color: Gray;
+    width: 790px;
+    height: 430px;	
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+}
+
+.caroussel_slide_container div
+{
+    float: left;
+}
+
+.caroussel_slide
+{
+    background-color: Aqua;
+    height: 280px;	
+    width: 790px;
+    position: absolute;
+	top: 60; left: 30;
+	display: none;
+}
+
+/*--Paging Styles--*/
+div.caroussel_paging {
+	position: absolute;
+	bottom: 40px; right: -7px;
+	height:47px;
+	width: 700px;
+	text-align: center;
+	line-height: 40px;
+	display: none; /*--Hidden by default, will be later shown with jQuery--*/
+}
+
+div.caroussel_paging a {
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+
+div.caroussel_paging a.active {
+	background: #920000;
+	border: 1px solid #610000;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+div.caroussel_paging a:hover 
+{
+
+}
+
+.caroussel-video-overlay
+{
+    display: none;
+    height: 280px;
+    width: 810px;
+    background-color: Yellow;
+}
+
+/* Caroussel End */
+
+/* Homepage Start */
+
+.homepage-block
+{
+}
+
+
+/* Homepage End */
